@@ -683,6 +683,9 @@ section {
   .project__demo, .project__code {
     padding: 0.5em 2em;
   }
+  .blog p {
+    padding-right: 2rem;
+  }
 }
 @media (max-width: 1115px) {
   .project__title {
