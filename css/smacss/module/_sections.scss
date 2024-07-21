@@ -1,0 +1,365 @@
+.profile {
+  &__container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+
+  &__img {
+    img {
+      width: 100%;
+    }
+  }
+
+  &__info {
+    width: 100%;
+  }
+
+  &__name {
+    padding-top: 2rem;
+    h1 {
+      font-size: 2.4rem;
+      padding-bottom: 1rem;
+      font-weight: $weight-600;
+      color: $color-secondary;
+    }
+
+    span {
+      font-size: 1.8rem;
+      font-weight: $weight-500;
+      color: $color-gray;
+    }
+  }
+
+  &__mail,
+  &__phone {
+    padding-top: 3rem;
+    svg {
+      height: 3rem;
+      width: auto;
+      fill: $color-secondary;
+
+      path {
+        fill: $color-secondary;
+      }
+    }
+
+    span {
+      font-size: 1.8rem;
+      color: $color-secondary;
+      padding-left: 1.5rem;
+    }
+  }
+
+  &__description {
+    font-size: 1.8rem;
+    color: $color-gray;
+    padding-top: 3rem;
+    width: 90%;
+    padding-bottom: 1.5rem;
+  }
+}
+
+.experience {
+  margin-top: 5rem;
+  padding: 2rem 4rem;
+
+  h2 {
+    font-size: 2.4rem;
+    font-weight: $weight-500;
+    padding-bottom: 5rem;
+  }
+
+  &__img {
+    img {
+      width: 8.4rem;
+    }
+  }
+
+  &__info {
+    padding-left: 1.5rem;
+
+    span {
+      font-size: 1.4rem;
+      font-weight: $weight-500;
+      color: $color-gray;
+    }
+
+    h3 {
+      font-size: 1.8rem;
+      font-weight: $weight-600;
+      padding-top: 1rem;
+      padding-bottom: 3rem;
+    }
+
+    p {
+      padding-bottom: 3.5rem;
+      color: $color-gray;
+    }
+  }
+}
+
+.hobbie {
+  margin-top: 5rem;
+  padding: 3rem;
+
+  h2 {
+    font-size: 2.4rem;
+    font-weight: $weight-500;
+    color: $color-secondary;
+  }
+
+  &__gaming,
+  &__cooking,
+  &__biking {
+    h3 {
+      font-size: 1.8rem;
+      font-weight: $weight-600;
+      color: $color-hb;
+      padding-top: 2.5rem;
+    }
+
+    p {
+      font-weight: $weight-500;
+      color: $color-gray;
+      padding-top: 1.6rem;
+    }
+  }
+
+  &__img {
+    margin-top: 3rem;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.skill {
+  background-color: $color-bg;
+
+  &__front,
+  &__design {
+    background-color: $color-white;
+    padding: 2rem;
+
+    h3 {
+      text-transform: uppercase;
+    }
+  }
+
+  &__design {
+    align-self: flex-start;
+  }
+
+  &__progress {
+    padding-top: 2rem;
+    span {
+      display: inline-block;
+    }
+    progress {
+      width: 100%;
+      appearance: none;
+
+      &[value]::-webkit-progress-bar {
+        background-color: #c4c4c4;
+        border-radius: 2rem;
+      }
+
+      &[value]::-webkit-progress-value {
+        background-color: $color-primary;
+        border-radius: 2rem;
+      }
+    }
+  }
+}
+
+.project {
+  background-color: $color-bg;
+  margin-top: 4rem;
+
+  h2,
+  &__container {
+    border-radius: 2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    color: $color-secondary;
+    font-weight: $weight-500;
+    padding: 2rem;
+    background-color: $color-white;
+  }
+
+  &__container {
+    background-color: $color-white;
+    margin-top: 4rem;
+    padding: 3rem;
+  }
+
+  &__img {
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__info {
+    padding-left: 4rem;
+  }
+
+  &__tag {
+    span {
+      font-size: 1.6rem;
+      color: $color-secondary;
+      font-weight: $weight-500;
+    }
+  }
+
+  &__title {
+    font-size: 2.4rem;
+    font-weight: $weight-500;
+    color: $color-hb;
+    margin-top: 3rem;
+  }
+
+  &__description {
+    font-size: 1.6rem;
+    font-weight: $weight-500;
+    color: $color-gray;
+    margin-top: 2rem;
+  }
+
+  &__btn {
+    width: 305px;
+    margin-top: auto;
+    font-size: 18px;
+  }
+
+  &__demo,
+  &__code {
+    font-size: 1em;
+    padding: 0.8em 2.5em;
+    border-radius: 1rem;
+    font-weight: $weight-500;
+  }
+
+  &__demo {
+    background-color: $color-primary;
+    color: $color-white;
+  }
+
+  &__code {
+    margin-left: 1rem;
+    background-color: $color-white;
+    border: 2px solid $color-primary;
+    color: $color-primary;
+  }
+}
+
+.blog {
+  margin-top: 5rem;
+  background-color: $color-bg;
+
+  h2,
+  &__container {
+    background-color: $color-white;
+
+    border-radius: 2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    font-weight: $weight-500;
+    color: $color-secondary;
+    padding: 2rem;
+  }
+
+  &__container {
+    margin-top: 2rem;
+    padding: 3rem 0 2rem 2rem;
+  }
+
+  &__title {
+    color: $color-blog;
+    font-size: 1.6rem;
+    font-weight: $weight-500;
+  }
+
+  h3 {
+    margin-top: 3rem;
+    font-size: 2.4rem;
+    font-weight: $weight-500;
+    width: 40%;
+    color: $color-hb;
+  }
+
+  p {
+    padding-top: 1.7rem;
+    font-weight: $weight-500;
+    color: $color-gray;
+    padding-right: 14rem;
+  }
+
+  &__img {
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__dev {
+    display: inline-block;
+    font-weight: 1.6rem;
+    font-weight: $weight-500;
+    color: $color-primary;
+    padding-top: 1rem;
+  }
+}
+
+@media (max-width: 1220px) {
+  .project {
+    &__title {
+      margin-top: 1rem;
+    }
+    &__description {
+      margin-top: 0.6rem;
+    }
+
+    &__demo,
+    &__code {
+      padding: 0.5em 2em;
+    }
+  }
+}
+
+@media (max-width: 1115px) {
+  .project {
+    &__title {
+      margin-top: 0;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .project {
+    &__tag {
+      margin-top: 2rem;
+    }
+    &__info {
+      padding-left: 0;
+    }
+
+    &__btn {
+      margin-top: 4rem;
+    }
+  }
+
+  .blog {
+    &__img {
+      margin-top: 2rem;
+    }
+    p {
+      padding-right: 0;
+    }
+  }
+}
